@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+
+:root {
+  --light:#fff;
+  --dark:#724200;
+  --overlayStart: rgba(114, 66, 0, 0.9);
+  --overlayEnd: rgba(114, 66, 0, 0.7);
+  --ease: all 0.3s ease 0s
+}
+*{
+  box-sizing: border-box;
+  padding: 8;
+  margin: 0;
+}
+
+body{
+  background-color: var(--dark);
+}
+
+h1, i{
+  color: var(--light);
+
+}
+
+p, a{
+  color: var(--light);
+  text-decoration: none;
+
+}
+
+h1  {
+  font-family: "work sans";
+  font-size: 54px;
+  font-weight: 300;
+}
+
+.wrapper{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "top";
+}
+
+.top {
+  grid-area: top;
+  background-image: linear-gradient(to right, var(--overlayStart), var(--overlayEnd)),url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-gap: 30px;
+  grid-template-areas:
+  ". top_content top_profile ."
+}
+.top_content{
+  grid-area: top_content;
+  align-self: center;
+  justify-self: center;
+}
+
+.subtitle{
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+.underline {
+  border-bottom: 2px solid;
+  width: 50%;
+}
+
+.top_profile{
+  grid-area: top_profile;
+  align-self: center;
+  justify-self: center;
+  background-image: url(images/hansa.jpg);
+  width: 376px;
+  height: 376px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.social{
+  display: flex;
+}
+
+.social_item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.social_item:not(:first-child){
+  margin-left: 50px
+}
+
+i {
+  font-size: 25px;
+}
+
+.social_copy{
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 15px;
+  transition: var(--ease);
+}
+
+.social_copy:hover{
+  filter: brightness(150%);
+}
