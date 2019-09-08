@@ -34,9 +34,6 @@ h1  {
   font-size: 54px;
   font-weight: 300;
 }
-@media screen and (max-width:980px) {
-  .top_profile, .top_content, {
-    width:100%;
 
 .wrapper{
   height: 100vh;
@@ -129,3 +126,7 @@ i {
 .social_copy:hover{
   filter: brightness(150%);
 }
+
+@media screen and (max-width:980px) {
+  .top_profile, .top_content, {
+    width:100%;
