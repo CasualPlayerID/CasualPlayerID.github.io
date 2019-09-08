@@ -34,6 +34,9 @@ h1  {
   font-size: 54px;
   font-weight: 300;
 }
+@media screen and (max-width:800px) {
+  .top_profile, .top_content, {
+    width:100%;
 
 .wrapper{
   height: 100vh;
@@ -59,7 +62,7 @@ h1  {
   grid-area: top_content;
   align-self: center;
   justify-self: center;
-  width:40%;
+
 }
 
 .subtitle{
@@ -95,7 +98,6 @@ h1  {
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
-  width:40%;
 }
 
 .social{
