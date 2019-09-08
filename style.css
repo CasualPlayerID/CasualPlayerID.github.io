@@ -59,6 +59,7 @@ h1  {
   grid-area: top_content;
   align-self: center;
   justify-self: center;
+  width:40%;
 }
 
 .subtitle{
@@ -94,6 +95,7 @@ h1  {
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+  width:40%;
 }
 
 .social{
