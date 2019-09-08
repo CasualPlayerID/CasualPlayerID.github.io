@@ -125,7 +125,3 @@ i {
 .social_copy:hover{
   filter: brightness(150%);
 }
-
-@media screen and (max-width:800px) {
-  .top_profile, .top_content {
-    width:100%;
