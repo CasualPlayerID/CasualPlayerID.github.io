@@ -45,7 +45,7 @@ h1  {
 
 .top {
   grid-area: top;
-  background-image: linear-gradient(to right, var(--overlayStart), var(--overlayEnd)),url(images/background.jpg);
+  background-image: linear-gradient(to right, var(--overlayStart), var(--overlayEnd)),url(https://drive.google.com/drive/folders/1Wmbi1iNRcKLg1D8XQe9XR_oXub7qkF5n/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,6 @@ h1  {
   grid-area: top_content;
   align-self: center;
   justify-self: center;
-
 }
 
 .subtitle{
@@ -87,7 +86,7 @@ h1  {
   grid-area: top_profile;
   align-self: center;
   justify-self: center;
-  background-image: url(images/hansa.jpg);
+  background-image: url(https://drive.google.com/drive/folders/1Wmbi1iNRcKLg1D8XQe9XR_oXub7qkF5n/hansa.jpg);
   width: 376px;
   height: 376px;
   background-size: cover;
