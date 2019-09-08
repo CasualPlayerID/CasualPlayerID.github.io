@@ -34,7 +34,7 @@ h1  {
   font-size: 54px;
   font-weight: 300;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:980px) {
   .top_profile, .top_content, {
     width:100%;
 
@@ -54,7 +54,7 @@ h1  {
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 500px 500px 1fr;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-areas:
   ". top_content top_profile ."
 }
